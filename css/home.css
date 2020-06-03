@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  background-color: #efee9d;
+}
+
+h3 {
+  font-size: 3rem;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 3px;
+}
+
+img {
+  width: 90%;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 1rem 2rem 5rem;
+  width: 60%;
+  position: relative;
+  display: inline-flex;
+}
+
+.bg {
+  background-color: #efee9d;
+}
+
+.navbar-brand {
+  font-size: 2.2rem;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 7px;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.9rem;
+  font-family: 'Lobster', cursive;
+}
+
+/* title */
+
+.title {
+  font-size: 8rem;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 10px;
+  padding: 1rem 0 5rem;
+}
+
+.settler {
+  font-size: 1.5rem;
+  font-family: 'Lobster', cursive;
+  color: #888888;
+  width: 60%;
+  display: inline-block;
+}
+
+.t {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: black;
+}
+
+/* container */
+
+.container-fluid {
+  padding: 5rem 0;
+  width: 75%;
+}
+
+.description {
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    text-align: left;
+  }
+}
